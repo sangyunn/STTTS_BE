@@ -1,0 +1,27 @@
+{
+  "name": "api-test",
+  "author": "kimakuma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --watch src/ src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.1.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.8",
+    "express": "^4.17.3",
+    "install": "^0.13.0",
+    "ip": "^2.0.0",
+    "mongoose": "^6.3.1",
+    "request-ip": "^3.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
